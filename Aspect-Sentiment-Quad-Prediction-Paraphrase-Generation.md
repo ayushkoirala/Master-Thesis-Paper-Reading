@@ -4,5 +4,5 @@
 
 | Topic | Aspect Sentiment Quad Prediction as Paraphrase Generation |
 | ---------------| --------------------------- |
-| Problem | |
-|Introduction | |
+| Problem | The problem addressed in the paper is that existing approaches for aspect-based sentiment analysis (ABSA) only consider the detection of partial sentiment elements (e.g. aspect category or sentiment polarity)  instead of predicting all four elements (aspect category, aspect term, opinion term, and sentiment polarity) in a comprehensive and complete manner. The authors introduce a new task called Aspect Sentiment Quad Prediction (ASQP) which aims to jointly detect all four sentiment elements in a given opinionated sentence. |
+| SOlution | The solution proposed in the paper is a novel PARAPHRASE modeling paradigm to cast the aspect-sentiment quad prediction (ASQP) task as a paraphrase generation process. This approach solves the ASQP task in an end-to-end manner, eliminating potential error propagation in a pipeline solution. The PARAPHRASE modeling framework also allows for the full exploitation of the semantics of the sentiment elements by learning to generate them in natural language form. The authors conduct extensive experiments on benchmark datasets and show that their proposed method outperforms existing methods and has the capacity for cross-task transfer. |
