@@ -1,3 +1,4 @@
 # Master-Thesis-Paper-Reading
-i will be writing all the paper i read during my sutdy
+I intend to write down everything I read during my studies.
+
 -Paper on ParaPhrase Generation
