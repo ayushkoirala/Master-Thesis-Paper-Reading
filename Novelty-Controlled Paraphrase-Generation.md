@@ -1,0 +1,7 @@
+# `Novelty Controlled Paraphrase Generation with Retrieval Augmented Conditional Prompt Tuning`
+
+
+| 1. Topic | Novelty Controlled Paraphrase Generation with Retrieval Augmented Conditional Prompt Tuning|
+|-----|--------------------------|
+| Problem | |
+| Solution | To address these challenges, the authors propose two methods. <br />1. First, they introduce a method called Retrieval Augmented Prompt Tuning (RAPT), which augments prompt tuning with kNN-based retrieved examples. RAPT can enhance the quality of paraphrases while reducing the number of trainable parameters, making it more parameter-efficient than the standard method of fine-tuning all parameters. <br />2.The authors propose a model-agnostic method called Novelty Conditioned RAPT (NC-RAPT), which uses specialized prompts for different levels of novelty to enable novelty-controlled paraphrase generation. NC-RAPT gives users more control over the level of novelty they want in the generated paraphrases, which can generate paraphrases that are more useful for specific applications, such as data augmentation. Overall, these approaches can improve the quality and usefulness of generated paraphrases, which can benefit various natural language processing tasks.
