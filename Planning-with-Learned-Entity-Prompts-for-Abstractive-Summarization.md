@@ -1,0 +1,7 @@
+# `Planning with Learned Entity Prompts for Abstractive Summarization`
+
+
+| Topic | Planning with Learned Entity Prompts for Abstractive Summarization|
+|-----|--------------------------|
+| Problems | Generating abstractive summaries that are faithful, coherent, and specific to entities mentioned in the input document is a challenging task for natural language generation models. Existing approaches that rely on sequence-to-sequence models often suffer from issues such as hallucinations and lack of entity-specificity, which can reduce the quality of the generated summaries. |
+| Solution | To address these issues, the authors propose a simple yet flexible mechanism to learn an intermediate plan to ground the generation of abstractive summaries. The approach involves appending the target summary with ordered sequences of entities mentioned in the summary, known as entity chains. Transformer-based sequence-to-sequence models are then trained to generate the entity chain and continue generating the summary conditioned on the entity chain and the input. The authors experiment with both pretraining and finetuning with this content planning objective, achieving state-of-the-art performance on XSum and SAMSum in terms of ROUGE. Moreover, by prompting the decoder with a modified content plan that drops hallucinated entities, they outperform state-of-the-art approaches for faithfulness when evaluated automatically and by humans. |
