@@ -1,0 +1,8 @@
+# `Latent Prompt Tuning for Text Summarization`
+paper link : https://arxiv.org/pdf/2304.05205.pdf
+
+|Topic| Latent Prompt Tuning for Text Summarization|
+|------|--------|
+| Background | Abstractive summarization models aim to generate shorter versions (summaries) of longer documents.<br />General-purpose summaries may not always meet specific user requirements, such as including certain keywords or adhering to length constraints.<br />Controllable text summarization is a sub-field that focuses on generating summaries tailored to user-specific requirements.<br />Existing controllable models prepend control tokens (e.g., length, keywords) to the input document during training to generate controlled summaries during test time.|
+| Problems | The paper aims to address the limitations of existing controllable summarization models and explore the possibility of a single model that can be applied in both controlled and uncontrolled modes.<br />The challenge is to develop a model that can generate high-quality summaries with and without control signals while leveraging the benefits of both approaches.  |
+|Solutions| 1. The proposed LOTUS model achieves controllable summarization through prompts.<br /><strong>During training:</strong><br />The uncontrolled model learns a latent prompt from the controlled model using a contrastive learning objective.<strong>During test time:</strong>Different prompts can be used to perform controllable and uncontrollable generation.<br /> The model can be applied in both controlled and uncontrolled modes, depending on the availability of control signals.|
