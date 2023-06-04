@@ -1,7 +1,7 @@
-`Topic:  "Peek Across: Improving Multi-Document Modeling via Cross-Document Question-Answering" `
+#`Topic:  "Peek Across: Improving Multi-Document Modeling via Cross-Document Question-Answering" `
 Link: https://arxiv.org/pdf/2305.15387.pdf
 
-|Topic||
+|Topic|Peek Across: Improving Multi-Document Modeling via Cross-Document Question-Answering|
 |----|----|
 |Problem|The paper addresses the problem of effectively modeling and understanding information from multiple documents in the context of multi-document tasks. While existing approaches have shown improvements by pre-training language models on multi-document objectives, there is still a need for a more comprehensive approach that leverages cross-document information and covers a wider range of tasks, including both short text generation (e.g., question answering) and long text generation (e.g., summarization).|
 |Solution|The proposed solution, called QAMDEN (Question Answering Model with Document-level Encoding and pre-training), introduces a novel cross-document question answering pre-training objective. The approach involves the following steps:<br />1.Generating Semantically-Oriented Questions: Given a set of topically-related documents, the model systematically generates semantically-oriented questions from a salient sentence in one document. These questions serve as a way to challenge the model during pre-training.<br />2.Peeking Across Documents:During pre-training, the model is tasked with answering the generated questions while "peeking" into other topically-related documents. This cross-document perspective allows the model to better understand and recover cross-text informational relations. <br />Sentence Recovery:Additionally, the model is challenged to recover the sentence from which the question was generated, again leveraging cross-document information. This task further enhances the model's ability to capture and utilize document-level context |
