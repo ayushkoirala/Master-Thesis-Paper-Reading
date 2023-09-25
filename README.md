@@ -47,3 +47,18 @@ Masking Ratio (0.45)
 | Sum_len+Background+Top-k-sentences    |        |        |        |           |
 
 
+# Dataset Statistics
+
+| Statistic                                        | Training Data              | Validation Data            |
+|--------------------------------------------------|----------------------------|----------------------------|
+| Number of rows missing Background                | 210                        | 38                         |
+| Number of rows missing Target                    | 42                         | 0                          |
+| Total number of unique ReviewID before dropping  | 14,188                     | 2,021                      |
+| Total number of unique ReviewID after dropping   | 13,978                     | 1,983                      |
+| Total number of unique ReviewID dropped          | 210                        | 38                         |
+| Average number of tokens in Background per ReviewID | 73.46                    | 69.85                      |
+| Average number of tokens in Target per ReviewID  | 61.26                      | 60.89                      |
+| Average number of tokens in Abstract per ReviewID| 301.55                     | 299.97                     |
+
+
+
