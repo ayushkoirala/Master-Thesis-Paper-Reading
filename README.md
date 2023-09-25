@@ -28,16 +28,16 @@ Masking Ratio (0.45)
 | PICO              |        |        |        |           |
 
 
-#Ablation Study: 1
+# Ablation Study: 1
 
 | Generator | Rouge1 | Rouge2 | RougeL | BERTScore |
 |-----------|--------|--------|--------|-----------|
 | BARTbase  |        |        |        |           |
 | BartLarge |        |        |        |           |
 | BartCNN   |        |        |        |           |
-| Bartxsum  |        |        |        |           |
+| BartXsum  |        |        |        |           |
 
-#Ablation Study: 2
+# Ablation Study: 2
 
 | Generator                             | Rouge1 | Rouge2 | RougeL | BERTScore |
 |---------------------------------------|--------|--------|--------|-----------|
