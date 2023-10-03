@@ -67,14 +67,14 @@ Masking Ratio (0.45)
 
 | Model     | Input Variant                     | Metrics                                                                     |
 |-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
-|           |                                   | Validation Sample                    |Testing Sample                       |
+|           |                                   | Validation Sample                    |Testing Sample                        |
 |-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
 |           |                                   | Rouge1 | Rouge2 | RougeL | BERTScore |Rouge1 | Rouge2 | RougeL | BERTScore  |
 |-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
-| BARTbase  | Background+Top-k-sentences        |        |        |        |           |        |        |        |           
+| BARTbase  | Background+Top-k-sentences        |        |        |        |           |        |        |        |           |
 |           | Top-k-sentences                   |        |        |        |           |        |        |        |           |
-|           | Sum_len+Top-k-sentences           |        |        |        |           |
-|           | Sum_len+Background+Top-k-sentences|        |        |        |           |
+|           | Sum_len+Top-k-sentences           |        |        |        |           |        |        |        |           |
+|           | Sum_len+Background+Top-k-sentences|        |        |        |           |        |        |        |           |
 |-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
 | BartLarge | Background+Top-k-sentences        |        |        |        |           |        |        |        |           |
 |           | Top-k-sentences                   |        |        |        |           |        |        |        |           |
@@ -86,7 +86,7 @@ Masking Ratio (0.45)
 |           | Sum_len+Top-k-sentences           |        |        |        |           |        |        |        |           |
 |           | Sum_len+Background+Top-k-sentences|        |        |        |           |        |        |        |           |
 |-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
-| BartXsum  | Background+Top-k-sentences        |        |        |        |           |
+| BartXsum  | Background+Top-k-sentences        |        |        |        |           |        |        |        |           |
 |           | Top-k-sentences                   |        |        |        |           |        |        |        |           |
 |           | Sum_len+Top-k-sentences           |        |        |        |           |        |        |        |           |
 |           | Sum_len+Background+Top-k-sentences|        |        |        |           |        |        |        |           |
