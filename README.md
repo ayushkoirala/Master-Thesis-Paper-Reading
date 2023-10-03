@@ -94,7 +94,7 @@ Masking Ratio (0.45)
 
 # Masking Ratio (0.15) - PICO
 
-| Model     | Input Variant                     | Validation  |        |        |        |           | Testing    |        |        |        |           |
+| Model     | Input Variant                     | Validation  |       | Testing    |      
 |-----------|-----------------------------------|-------------|--------|--------|--------|-----------|------------|--------|--------|--------|-----------|
 |           |                                   | Rouge1      | Rouge2 | RougeL | BERTScore | Rouge1     | Rouge2     | RougeL | BERTScore |
 | BARTbase  | Background+Top-k-sentences        |             |        |        |           |            |        |        |           |
