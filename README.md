@@ -61,4 +61,36 @@ Masking Ratio (0.45)
 | Average number of tokens in Abstract per ReviewID| 301.55                     | 299.97                     |
 
 
+# New Table:
+
+# Masking Ratio (0.15) - PICO
+
+| Model     | Input Variant                     | Metrics                                                                     |
+|-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
+|           |                                   | Validation Sample                    |Testing Sample                       |
+|-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
+|           |                                   | Rouge1 | Rouge2 | RougeL | BERTScore |Rouge1 | Rouge2 | RougeL | BERTScore  |
+|-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
+| BARTbase  | Background+Top-k-sentences        |        |        |        |           |        |        |        |           
+|           | Top-k-sentences                   |        |        |        |           |        |        |        |           |
+|           | Sum_len+Top-k-sentences           |        |        |        |           |
+|           | Sum_len+Background+Top-k-sentences|        |        |        |           |
+|-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
+| BartLarge | Background+Top-k-sentences        |        |        |        |           |        |        |        |           |
+|           | Top-k-sentences                   |        |        |        |           |        |        |        |           |
+|           | Sum_len+Top-k-sentences           |        |        |        |           |        |        |        |           |
+|           | Sum_len+Background+Top-k-sentences|        |        |        |           |        |        |        |           |
+|-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
+| BartCNN   | Background+Top-k-sentences        |        |        |        |           |        |        |        |           |
+|           | Top-k-sentences                   |        |        |        |           |        |        |        |           |
+|           | Sum_len+Top-k-sentences           |        |        |        |           |        |        |        |           |
+|           | Sum_len+Background+Top-k-sentences|        |        |        |           |        |        |        |           |
+|-----------|-----------------------------------|--------|--------|--------|-----------|--------|--------|--------|-----------|
+| BartXsum  | Background+Top-k-sentences        |        |        |        |           |
+|           | Top-k-sentences                   |        |        |        |           |        |        |        |           |
+|           | Sum_len+Top-k-sentences           |        |        |        |           |        |        |        |           |
+|           | Sum_len+Background+Top-k-sentences|        |        |        |           |        |        |        |           |
+
+
+
 
