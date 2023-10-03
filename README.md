@@ -94,13 +94,29 @@ Masking Ratio (0.45)
 
 # Masking Ratio (0.15) - PICO
 
-| Model     | Input Variant                     | Validation  |       | Testing    |      
+| Model     | Input Variant                     | Validation  |        |        |        |           | Testing    |        |        |        |           |
 |-----------|-----------------------------------|-------------|--------|--------|--------|-----------|------------|--------|--------|--------|-----------|
 |           |                                   | Rouge1      | Rouge2 | RougeL | BERTScore | Rouge1     | Rouge2     | RougeL | BERTScore |
-| BARTbase  | Background+Top-k-sentences        |             |        |        |           |            |        |        |           |
+| BARTbase  | Background+Top-k-sentences        |0.30081178   |0.09374615|0.20774873|0.86757594|        |           |            |     ||
 |           | Top-k-sentences                   |             |        |        |           |            |        |        |           |
 |           | Sum_len+Top-k-sentences           |             |        |        |           |            |        |        |           |
-|           | Sum_len+Background+Top-k-sentences|             |        |        |           |
+|           | Sum_len+Background+Top-k-sentences|             |        |        |           |            |        |        |           |
+|-----------|-----------------------------------|-------------|--------|--------|--------|-----------|------------|--------|--------|--------|-----------|
+| BartLarge | Background+Top-k-sentences        |             |        |        |           |            |        |        |           |
+|           | Top-k-sentences                   |             |        |        |           |            |        |        |           |
+|           | Sum_len+Top-k-sentences           |             |        |        |           |            |        |        |           |
+|           | Sum_len+Background+Top-k-sentences|             |        |        |           |            |        |        |           |
+|-----------|-----------------------------------|-------------|--------|--------|--------|-----------|------------|--------|--------|--------|-----------|
+| BartCNN   | Background+Top-k-sentences        |             |        |        |           |            |        |        |           |
+|           | Top-k-sentences                   |             |        |        |           |            |        |        |           |
+|           | Sum_len+Top-k-sentences           |             |        |        |           |            |        |        |           |
+|           | Sum_len+Background+Top-k-sentences|             |        |        |           |            |        |        |           |
+|-----------|-----------------------------------|-------------|--------|--------|--------|-----------|------------|--------|--------|--------|-----------|
+| BartXsum  | Background+Top-k-sentences        |             |        |        |           |            |        |        |           |
+|           | Top-k-sentences                   |             |        |        |           |            |        |        |           |
+|           | Sum_len+Top-k-sentences           |             |        |        |           |            |        |        |           |
+|           | Sum_len+Background+Top-k-sentences|             |        |        |           |            |        |        |           |
+
 
 
 
